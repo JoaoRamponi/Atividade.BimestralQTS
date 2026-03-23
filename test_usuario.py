@@ -8,4 +8,4 @@ def test_validar_pedido_sucesso():
     assert validar_pedido(10, 2, 4) == 'Pedido Valido'
 
 def test_validar_pedido_errado():
-    assert validar_pedido(1, 9, 0) == 'Pedido Invalido'
+    assert validar_pedido(1, 9, 0) == 'Pedido inválido'
